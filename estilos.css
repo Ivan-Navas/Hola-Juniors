@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;1,400;1,500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "DM Sans", sans-serif;
+}
+header {
+  margin-top: 39px;
+  margin-bottom: 39px;
+  display: flex;
+  align-items: center; /*vertical*/
+  height: 100%;
+  justify-content: space-between;
+}
+.holaJuniors {
+  float: left;
+}
+.email {
+  width: 100px;
+  height: 30px;
+  border: 1px solid #ebeaed;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center; /*horizontal*/
+  margin-right: 30px;
+}
+.tJuniors {
+  color: #1e0e62;
+  margin-left: 20px;
+}
+.linkEmail {
+  text-decoration: none;
+  color: #1e0e62;
+  font-weight: 500;
+  font-size: 16px;
+  float: right;
+}
+.contenedor1 {
+  height: 451px;
+  width: 100%;
+  display: flex;
+  background-color: #f1f1f1;
+  color: #1e0e62;
+}
+.infoC1 {
+  width: 50%;
+}
+.tituloC1 {
+  font-size: 43px;
+  font-weight: 700px;
+  padding-left: 103px;
+  padding-top: 109px;
+}
+.contenidoC1 {
+  font-size: 22px;
+  font-weight: 400px;
+  color: rgba(21, 20, 57, 0.4);
+  position: absolute;
+  left: 8.29%;
+  right: 65.36%;
+  top: 60.46%;
+  bottom: 17.12%;
+}
+.perroC1 {
+  width: 50%;
+}
+.perro {
+  width: 570px;
+  height: 451px;
+  margin-top: 53px;
+}
+/*---------------------------------------------------------------------------------------------------------------------------              */
+.contenedor2 {
+  background-color: #f1f1f1;
+  height: 790px;
+}
+.contenidoC2 {
+  text-align: center;
+}
+.tituloC2 {
+  color: #1e0e62;
+  font-size: 42px;
+  font-weight: 700px;
+  padding-top: 200px;
+}
+.infoC2 {
+  color: rgba(21, 20, 57, 0.4);
+  font-weight: 500;
+  font-size: 22px;
+  margin-top: 20px;
+}
+.habilidades {
+  margin-top: 95px;
+  display: flex;
+}
+.habi {
+  text-align: center;
+  margin: 75px;
+}
+.titulos {
+  color: #1e0e62;
+  margin-bottom: 20px;
+}
+.info {
+  color: rgba(21, 20, 57, 0.4);
+}
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.contenedor3{
+  text-align: center;
+  padding-top: 100px;
+  margin-bottom: 79px;
+}
+.experiencia{
+  color: #1e0e62;
+  font-size: 42px;
+  font-weight: 700;
+  padding-bottom: 20.2px;
+}
+.contenidoC3{
+  padding-left: 321px;
+  padding-right: 321px;
+  font-size: 22px;
+  font-weight: 500;
+  color: rgba(21, 20, 57, 0.4);
+  padding-bottom: 66.8px;
+}
+
+.contacto{
+  font-weight: 500;
+  font-size: 18px;
+  color: #fff;
+  background-color: #25DAC5;
+  border-radius: 25px;
+  padding: 12px 19px 12px  20px;
+  
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.contenedor4{
+  margin-bottom: 122px;
+}
+.primera{
+  display: flex;
+  padding-left: 60px;
+  padding-right: 60px;
+  margin-bottom: 70px;
+}
+.segunda{
+  display: flex;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+.imagent{
+  width: 370px;
+  height: 240px;
+}
+.tTrabajo{
+  color: #1e0e62;
+}
+.contenidoC4{
+  color: rgba(21, 20, 57, 0.4);
+}
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+footer{
+    height: 715px;
+    text-align: center;
+    background-color: #ebeaed;
+    padding-bottom: 197.09px;
+}
+.mas{
+  padding-top: 25%;
+  margin-bottom: 137.03px;
+}
+.masinfo{
+  font-weight: 700;
+  font-size: 58px;
+  color: #1e0e62;
+}
+.correo{
+  font-size: 58px;
+  font-weight: 700;
+  color: #482BE7;
+}
+.linkContacto{
+  margin: 61.12px;
+  width: 21.89px;
+  height: 21.88px;
+}
+
+a{
+    text-decoration: none;
+}
