@@ -14,9 +14,7 @@ header {
   height: 100%;
   justify-content: space-between;
 }
-.holaJuniors {
-  float: left;
-}
+
 .email {
   width: 100px;
   height: 30px;
@@ -44,6 +42,7 @@ header {
   display: flex;
   background-color: #f1f1f1;
   color: #1e0e62;
+  
 }
 .infoC1 {
   width: 50%;
@@ -58,14 +57,13 @@ header {
   font-size: 22px;
   font-weight: 400px;
   color: rgba(21, 20, 57, 0.4);
-  position: absolute;
-  left: 8.29%;
-  right: 65.36%;
-  top: 60.46%;
-  bottom: 17.12%;
+  padding-top: 20px;
+  margin-left: 103px;
+  padding-right: 50px;
 }
 .perroC1 {
   width: 50%;
+  min-width: 300px;
 }
 .perro {
   width: 570px;
@@ -194,3 +192,374 @@ footer{
 a{
     text-decoration: none;
 }
+/*!--------1300---------*/
+@media (max-width: 1300px){
+  body{
+    width: 100%;
+  }
+  .contenedor1{
+    padding-bottom: 80px;
+  }
+  .contenedor2{
+    padding-bottom: 200px;
+    height: 1000px;
+  }
+  .infoC1{
+    width: 100%;
+    padding-top: 20px;
+  }
+  .habi{
+    font-size: 25px;
+  }
+  .perro{
+    width: 100%;
+    height: 409px;
+    
+  }
+  .tituloC1{
+    padding-bottom: 8px;
+  }
+  .imagent{
+    width: 270px;
+    height: 200px;
+  }
+  .masinfo, .correo{
+    font-size: 22px;
+  }
+  footer{
+    padding-bottom: 0px;
+    height: 50%;
+  }
+  .linkContacto{
+    margin: 3px;
+  }
+
+  .contenedor2{
+    padding-bottom: 100px;
+  }
+  .contenidoC3{
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    padding-bottom: 20px;
+  }
+  .contenidoC4{
+    padding-bottom: 20px;
+  }
+  .habilidades{
+    display: block;
+ }
+ .misHabilidadesC2{
+  margin-bottom: 100px;
+}
+.primera, .segunda{
+  display: flex;
+}
+.imagent{
+  width: 250px;
+  height: 250px;
+}
+}
+/*!--------900px--------*/
+@media (max-width: 900px){
+  body{
+    width: 100%;
+  }
+  .contenedor1{
+    display: block;
+    padding-bottom: 80px;
+  }
+  .contenedor2{
+    padding-bottom: 200px;
+    height: 1000px;
+  }
+  .infoC1{
+    text-align: center;
+    width: 100%;
+    padding-top: 20px;
+    
+  }
+  .habi{
+    font-size: 25px;
+  }
+  .perro{
+    width: 100%;
+    height: 509px;
+    
+  }
+  .tituloC1{
+    font-size: 30px;
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 8px;
+  }
+  .imagent{
+    width: 270px;
+    height: 200px;
+  }
+  .masinfo, .correo{
+    font-size: 22px;
+  }
+  footer{
+    padding-bottom: 0px;
+    height: 50%;
+  }
+  .linkContacto{
+    margin: 3px;
+  }
+  .contenidoC1{
+    padding: 0px;
+    margin: 0px;
+    font-size: 20px;
+  }
+  .contenedor2{
+    padding-bottom: 100px;
+  }
+  .contenidoC3{
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    padding-bottom: 20px;
+  }
+  .contenidoC4{
+    padding-bottom: 20px;
+  }
+  .habilidades{
+    display: block;
+ }
+ .misHabilidadesC2{
+  margin-bottom: 100px;
+}
+.primera, .segunda{
+  display: flex;
+}
+.imagent{
+  width: 200px;
+  height: 200px;
+}
+}
+
+/*!-----------------------766px--------*/
+@media (max-width: 766px){
+  body{
+    width: 100%;
+  }
+  .contenedor1{
+    display: block;
+    padding-bottom: 20px;
+    
+  }
+  .contenedor2{
+    padding-bottom: 200px;
+    height: 1000px;
+  }
+  .infoC1{
+    text-align: center;
+    width: 100%;
+    padding-top: 20px;
+    
+  }
+  .perro{
+    width: 500px;
+    height: 409px;
+    padding-left: 20%;
+  }
+  .tituloC1{
+    font-size: 30px;
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 8px;
+  }
+  .imagent{
+    width: 270px;
+    height: 200px;
+  }
+  .masinfo, .correo{
+    font-size: 22px;
+  }
+  footer{
+    padding-bottom: 0px;
+    height: 50%;
+  }
+  .linkContacto{
+    margin: 3px;
+  }
+  .contenidoC1{
+    padding: 0px;
+    margin: 0px;
+    font-size: 20px;
+  }
+  .contenedor2{
+    padding-bottom: 100px;
+  }
+  .contenidoC3{
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    padding-bottom: 20px;
+  }
+  .contenidoC4{
+    padding-bottom: 20px;
+  }
+  .habilidades{
+    display: block;
+ }
+ .misHabilidadesC2{
+  margin-bottom: 100px;
+}
+.primera, .segunda{
+  display: block;
+}
+}
+/*!---------------586---------------*/
+@media (max-width: 586px){
+  
+    body{
+      width: 100%;
+    }
+    .contenedor1{
+      display: block;
+      padding-bottom: 20px;
+    }
+    .contenedor2{
+      padding-bottom: 200px;
+      height: 1000px;
+    }
+    .infoC1{
+      text-align: center;
+      width: 100%;
+      padding-top: 20px;
+      
+    }
+    .perroC1{
+      padding-left: -80px;
+      margin-left: -80px;
+    }
+    .perro{
+      width: 500px;
+      height: 409px;
+    }
+    .tituloC1{
+      font-size: 30px;
+      margin: 0px;
+      padding: 0px;
+      padding-bottom: 8px;
+    }
+    .imagent{
+      width: 270px;
+      height: 200px;
+    }
+    .masinfo, .correo{
+      font-size: 22px;
+    }
+    footer{
+      padding-bottom: 0px;
+      height: 50%;
+    }
+    .linkContacto{
+      margin: 3px;
+    }
+    .contenidoC1{
+      padding: 0px;
+      margin: 0px;
+      font-size: 20px;
+    }
+    .contenedor2{
+      padding-bottom: 100px;
+    }
+    .contenidoC3{
+      text-align: center;
+      margin: 0px;
+      padding: 0px;
+      font-size: 16px;
+      padding-bottom: 20px;
+    }
+    .contenidoC4{
+      padding-bottom: 20px;
+    }
+    .habilidades{
+      display: block;
+   }
+   .misHabilidadesC2{
+    margin-bottom: 100px;
+  }
+  .primera, .segunda{
+    display: block;
+  }
+  }
+
+/*!-------------500px-----------------*/
+@media (max-width: 500px){
+  body{
+    width: 100%;
+  }
+  .contenedor1{
+    display: block;
+    padding-bottom: 20px;
+  }
+  .contenedor2{
+    padding-bottom: 200px;
+    height: 100%;
+  }
+  .infoC1{
+    text-align: center;
+    width: 100%;
+    padding-top: 20px;
+    
+  }
+  .perro{
+    width: 500px;
+    height: 409px;
+  }
+  .tituloC1{
+    font-size: 30px;
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 8px;
+  }
+  .imagent{
+    width: 270px;
+    height: 200px;
+  }
+  .masinfo, .correo{
+    font-size: 22px;
+  }
+  footer{
+    padding-bottom: 0px;
+    height: 50%;
+  }
+  .linkContacto{
+    margin: 3px;
+  }
+  .contenidoC1{
+    padding: 0px;
+    margin: 0px;
+    font-size: 20px;
+  }
+  .contenedor2{
+    padding-bottom: 100px;
+  }
+  .contenidoC3{
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    padding-bottom: 20px;
+  }
+  .contenidoC4{
+    padding-bottom: 20px;
+  }
+  .habilidades{
+    display: block;
+ }
+ .misHabilidadesC2{
+  margin-bottom: 100px;
+}
+.primera, .segunda{
+  display: block;
+}
+}
+/**teminado de momento/
