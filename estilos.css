@@ -562,4 +562,80 @@ a{
   display: block;
 }
 }
+/*!---------450px-----------------------*/
+@media (max-width: 450px){
+  body{
+    width: 100%;
+  }
+  .contenedor1{
+    display: block;
+    padding-bottom: 20px;
+  }
+  .contenedor2{
+    padding-bottom: 200px;
+    height: 100%;
+  }
+  .infoC1{
+    text-align: center;
+    width: 100%;
+    padding-top: 20px;
+    
+  }
+  .perroC1{
+    padding-left: 25px;
+  }
+  .perro{
+    width: 400px;
+    height: 409px;
+    
+  }
+  .tituloC1{
+    font-size: 30px;
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 8px;
+  }
+  .imagent{
+    width: 270px;
+    height: 200px;
+    
+  }
+  .masinfo, .correo{
+    font-size: 22px;
+  }
+  footer{
+    padding-bottom: 0px;
+    height: 50%;
+  }
+  .linkContacto{
+    margin: 3px;
+  }
+  .contenidoC1{
+    padding: 0px;
+    margin: 0px;
+    font-size: 20px;
+  }
+  .contenedor2{
+    padding-bottom: 100px;
+  }
+  .contenidoC3{
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    padding-bottom: 20px;
+  }
+  .contenidoC4{
+    padding-bottom: 20px;
+  }
+  .habilidades{
+    display: block;
+ }
+ .misHabilidadesC2{
+  margin-bottom: 100px;
+}
+.primera, .segunda{
+  display: block;
+}
+}
 /**teminado de momento/
