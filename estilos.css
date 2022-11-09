@@ -260,6 +260,9 @@ a{
   width: 250px;
   height: 250px;
 }
+.masinfo, .correo{
+  font-size: 45px;
+}
 }
 /*!--------900px--------*/
 @media (max-width: 900px){
@@ -339,6 +342,9 @@ a{
   width: 200px;
   height: 200px;
 }
+.masinfo, .correo{
+  font-size: 40px;
+}
 }
 
 /*!-----------------------766px--------*/
@@ -413,8 +419,11 @@ a{
 .primera, .segunda{
   display: block;
 }
+.masinfo, .correo{
+  font-size: 35px;
 }
-/*!---------------586---------------*/
+}
+/*!---------------586px---------------*/
 @media (max-width: 586px){
   
     body{
@@ -489,7 +498,11 @@ a{
   .primera, .segunda{
     display: block;
   }
+  .masinfo, .correo{
+    font-size: 30px;
   }
+  }
+  
 
 /*!-------------500px-----------------*/
 @media (max-width: 500px){
@@ -511,7 +524,7 @@ a{
     
   }
   .perro{
-    width: 100%;
+    width: 500px;
     height: 409px;
   }
   .tituloC1{
